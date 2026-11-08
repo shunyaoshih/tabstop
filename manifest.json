@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab",
+  "version": "0.2.0",
+  "description": "A keyboard-first new tab page for your bookmarks.",
+  "permissions": ["bookmarks", "favicon", "topSites"],
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}

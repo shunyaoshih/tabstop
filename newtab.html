@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>New Tab</title>
+<link rel="stylesheet" href="newtab.css">
+<script src="boot.js"></script>
+<script src="pinyin.js" defer></script>
+<script src="newtab.js" defer></script>
+</head>
+<body>
+<div class="app">
+  <div class="scroller"><div class="wrap">
+    <div class="top">
+      <div class="filter-wrap">
+        <label class="filter">
+          <span class="prompt" aria-hidden="true">›</span>
+          <input class="q" type="text" placeholder="Search bookmarks or Google, ⌘K for commands" aria-label="Filter bookmarks" autocomplete="off" spellcheck="false" autofocus>
+          <span class="count"></span>
+        </label>
+        <div class="cmd" hidden><ul></ul></div>
+      </div>
+      <nav class="dock" aria-label="Top sites"></nav>
+    </div>
+    <div class="cols"></div>
+  </div></div>
+  <div class="status"><span class="hints"></span><span class="toast" aria-live="polite"></span></div>
+  <div class="help" hidden><div class="help-panel">
+    <div class="help-head"><h3>Keyboard shortcuts</h3><kbd>esc</kbd></div>
+    <div class="help-grid"></div>
+  </div></div>
+</div>
+</body>
+</html>
