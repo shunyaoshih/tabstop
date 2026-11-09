@@ -586,5 +586,4 @@ function main() {
   focusFilter();
 }
 
-// The first load only exists to reload itself (see boot.js).
-if (location.search) main();
+main();

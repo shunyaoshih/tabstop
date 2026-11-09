@@ -8,9 +8,8 @@ Top sites (`⌃1`–`⌃8`) are the first 8 loose links on your bookmarks bar. W
 loose links there, the page falls back to Chrome's most-visited list, whose
 order changes as you browse.
 
-Chrome puts the cursor in the address bar when a new tab opens, so the page
-reloads itself once to take it. That's why the address bar shows the
-extension's address instead of staying empty.
+Chrome puts the cursor in the address bar when a new tab opens, so press Tab
+once to reach the filter.
 
 Enter opens the selected bookmark. When nothing matches, Enter searches Google
 or goes to the address you typed, and `⌘⇧↵` searches Google even when something
