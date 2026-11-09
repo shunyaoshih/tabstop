@@ -1,4 +1,4 @@
-# new-tab
+# tabstop
 
 A keyboard-first Chrome new tab page for your bookmarks. Folders show as cards
 packed into columns, and a filter that always has the cursor lets you find,
